@@ -12,6 +12,6 @@ bookdown::gitbook:
       after: |
         <li><a href="https://github.com/kimberly-bastille/shiny-book" target="blank">Published with bookdown</a></li>
     edit: https://github.com/kimberly-bastille/shiny-book/edit/master/%s
-    download: ["pdf"]
+    #download: ["pdf"]
 #bookdown::pdf_book:
 #  keep_tex: yes
