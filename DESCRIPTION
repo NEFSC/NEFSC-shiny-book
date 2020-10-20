@@ -1,0 +1,9 @@
+Package: placeholder
+Type: Book
+Title: Shiny-Book
+Description: Book containing shiny app descriptions
+Version: 0.0.1
+Imports:
+  bookdown, 
+  rmarkdown
+  

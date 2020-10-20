@@ -1,0 +1,30 @@
+# R for travis: see documentation at https://docs.travis-ci.com/user/languages/r
+
+os: linux
+language: r
+
+pandoc_version: 2.6
+cache: packages
+
+before_install:
+ - sudo apt-get install libgdal1-dev libproj-dev gdal-bin proj-bin
+ - sudo apt-get install libgeos-dev
+ - sudo apt-get install libnetcdf-dev netcdf-bin
+ - sudo apt-get install libmagick++-dev
+ - sudo apt-get update
+ - sudo apt-get install libudunits2-dev
+ - tlmgr install threeparttablex infwarerr pdfescape letltxmacro bitset grffile pdflscape makecell
+
+script:
+  - Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::gitbook')"
+  - Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::pdf_book')"
+
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  token: $GITHUB_TOKEN
+  local_dir: _book
+  on:
+    branch: master
+
