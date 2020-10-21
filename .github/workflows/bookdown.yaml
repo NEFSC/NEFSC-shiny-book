@@ -55,7 +55,7 @@ jobs:
       #     npm install netlify-cli -g
       #     netlify deploy --prod --dir _book
       #
-      #           - name: Deploy 🚀
+      #           - name: Deploy
      - name: Deploy to github
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
