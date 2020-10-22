@@ -14,8 +14,8 @@ github-repo: kimberly-bastille/shiny-book
 description: "This book documents nothing yet"
 ---
 
-# Test head
-This book was compiled by the NEFSC R shiny group to showcase how we have used shiny in our work. Each chapter describes a different shiny app case study. 
+# Introduction
+This book was compiled by the NEFSC R shiny group to showcase how we have used [R shiny](https://shiny.rstudio.com/) apps to enhance our work. Each chapter describes a different shiny app developed at the Northeast Fisheries Center. Many of the apps shared here are under ongoing development and the purpose of this book is to share our work and the lessons we've learned through developing these apps. 
 
 
 
