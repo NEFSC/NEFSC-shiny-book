@@ -6,3 +6,6 @@
 # exclude files
 *.html
 *.Rproj
+
+# folders
+_book

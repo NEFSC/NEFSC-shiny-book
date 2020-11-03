@@ -35,6 +35,10 @@ A shiny app can be developed
 
 
 
+```{r setup, echo=FALSE}
+image.dir <- here::here("images")
+```
+
 
 
 
