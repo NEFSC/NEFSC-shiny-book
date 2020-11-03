@@ -1,14 +1,18 @@
 # Template
 
+**Apps Name**: [app](link to app)
+
 **Developer(s)**: Developer Name
   
-**Point of contact**: Developer Name, <developer.name@noaa.gov>
+**Point of contact**: Developer Name, <developer.name@noaa.gov> (BRANCH NAME)
   
 **Keywords**: Keyword 1, Keyword 2, Keyword 3
 
+**Key Packages**: list of important/unique packages used
+
 ## Application Purpose
 
-Description of app. Include a link to [internal app](google.com).
+Description of app.
 
 ```{r, echo=FALSE}
 knitr::include_graphics(file.path(image.dir,"example.png"))
