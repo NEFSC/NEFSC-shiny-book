@@ -3,5 +3,6 @@
 |Member|Branch|
 |---|---|
 |Andy Beet|EDAB|
+|Kim Bastille|EDAB|
 
 
