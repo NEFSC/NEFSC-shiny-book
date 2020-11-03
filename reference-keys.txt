@@ -4,10 +4,9 @@ welcome
 connecting-to-server
 needed-credetials
 saving-the-app
-title
+template
 application-purpose
 uses
 useful-resources
 articlesbooks
 videos
-section
