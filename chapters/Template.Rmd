@@ -1,4 +1,4 @@
-# Title
+# Template
 
 **Developer(s)**: Developer Name
   
@@ -10,7 +10,7 @@
 
 Description of app. Include a link to [internal app](google.com).
 
-```{r}
+```{r, echo=FALSE}
 knitr::include_graphics(file.path(image.dir,"example.png"))
 ```
 

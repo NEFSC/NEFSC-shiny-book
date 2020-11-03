@@ -17,7 +17,7 @@ description: "This book documents nothing yet"
 # Introduction
 This book was compiled by the NEFSC R shiny group to showcase how we have used [R shiny](https://shiny.rstudio.com/) apps to enhance our work. Each chapter describes a different shiny app developed at the Northeast Fisheries Center. Many of the apps shared here are under ongoing development and the purpose of this book is to share our work and the lessons we've learned through developing these apps. 
 
-```{r setup}
+```{r setup, echo=FALSE}
 image.dir <- here::here("images")
 ```
 

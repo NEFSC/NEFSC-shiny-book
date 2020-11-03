@@ -6,5 +6,4 @@ These are resources that the NEFSC R Shiny group have found useful in the develo
 
 ## Videos
 
-## 
 
