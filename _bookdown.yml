@@ -1,6 +1,6 @@
 book_filename: "shiny-book"
 rmd_files: ["index.Rmd",
-"chapters/Getting_Started.Rmd",
+"chapters/authenticate.Rmd",
 "chapters/Template.Rmd",
 "chapters/Useful_Resources.Rmd",
 "chapters/shiny_group.Rmd"]
