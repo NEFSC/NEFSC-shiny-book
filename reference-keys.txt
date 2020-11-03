@@ -1,5 +1,6 @@
 introduction
 getting-started
+getting-started-1
 welcome
 connecting-to-server
 needed-credetials
@@ -10,3 +11,4 @@ uses
 useful-resources
 articlesbooks
 videos
+group
