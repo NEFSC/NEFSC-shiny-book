@@ -1,6 +1,6 @@
 # Authentication
 
-**App name** [authenticate](shiny1.nefsc.noaa.gov:3838/abeet/authenticate)
+**App name**: [authenticate](shiny1.nefsc.noaa.gov:3838/abeet/authenticate)
 
 **Developer(s)**: Andy Beet
   
@@ -9,6 +9,8 @@
 **Keywords**: credentials, authentication, password, database
 
 **Key Packages**: DBI/odbc
+
+**GitHub**: [https://github.com/andybeet/authenticate](https://github.com/andybeet/authenticate)
 
 ## Application Purpose
 
