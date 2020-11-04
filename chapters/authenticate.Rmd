@@ -1,6 +1,6 @@
 # Authentication
 
-**App name**: [authenticate](shiny1.nefsc.noaa.gov:3838/abeet/authenticate)
+**App name**: [authenticate](http://shiny1.nefsc.noaa.gov:3838/abeet/authenticate/)
 
 **Developer(s)**: Andy Beet
   
