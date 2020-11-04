@@ -3,7 +3,8 @@ rmd_files: ["index.Rmd",
 "chapters/authenticate.Rmd",
 "chapters/Template.Rmd",
 "chapters/Useful_Resources.Rmd",
-"chapters/shiny_group.Rmd"]
+"chapters/shiny_group.Rmd",
+"chapters/NERWapp.Rmd"]
 delete_merged_file: true
 output_dir: "_book"
 new_session: false # merge and knit as appose to knit and merge
