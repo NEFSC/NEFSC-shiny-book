@@ -1,0 +1,30 @@
+# Template
+
+**Apps Name**: [Northeast Right Whale Shiny Apps](http://shiny1.nefsc.noaa.gov:3838/lcrowe/narwss_rwsas_apps/)
+
+**Developer(s)**: Leah Crowe
+  
+**Point of contact**: Leah Crowe, <leah.crowe@noaa.gov> (Protected Species Branch)
+  
+**Keywords**: Keyword 1, Keyword 2, Keyword 3
+
+**Key Packages**: list of important/unique packages used
+
+**GitHub**: [link to app dev code](https://github.com/leahcrowe/narwss_rwsas_apps)
+
+## Application Purpose
+
+Description of app.
+
+```{r, echo=FALSE}
+knitr::include_graphics(file.path(image.dir,"NERWapp.AerialSurvey.png"))
+knitr::include_graphics(file.path(image.dir,"NERWapp.TriggerAnalysis.png"))
+knitr::include_graphics(file.path(image.dir,"NERWapp.PhotoPosition.png"))
+```
+
+## Uses
+
+How often is it used? 
+
+Has it been used in management?
+
