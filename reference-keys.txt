@@ -13,3 +13,6 @@ useful-resources
 articlesbooks
 videos
 group
+template-1
+application-purpose-2
+uses-2
