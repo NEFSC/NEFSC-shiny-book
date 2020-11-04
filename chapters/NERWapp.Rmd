@@ -1,4 +1,4 @@
-# Template
+# Northeast Right Whale Shiny Apps
 
 **Apps Name**: [Northeast Right Whale Shiny Apps](http://shiny1.nefsc.noaa.gov:3838/lcrowe/narwss_rwsas_apps/)
 
@@ -14,14 +14,23 @@
 
 ## Application Purpose
 
-Description of app.
+Aerial Survey Processing App
 
 ```{r, echo=FALSE}
 knitr::include_graphics(file.path(image.dir,"NERWapp.AerialSurvey.png"))
-knitr::include_graphics(file.path(image.dir,"NERWapp.TriggerAnalysis.png"))
-knitr::include_graphics(file.path(image.dir,"NERWapp.PhotoPosition.png"))
 ```
 
+Trigger Analysis
+
+```{r, echo=FALSE}
+knitr::include_graphics(file.path(image.dir,"NERWapp.TriggerAnalysis.png"))
+```
+
+Photo Position Finder
+
+```{r, echo=FALSE}
+knitr::include_graphics(file.path(image.dir,"NERWapp.PhotoPosition.png"))
+```
 ## Uses
 
 How often is it used? 
