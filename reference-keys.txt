@@ -9,10 +9,10 @@ uses
 template
 application-purpose-1
 uses-1
+template-1
+application-purpose-2
+uses-2
 useful-resources
 articlesbooks
 videos
 group
-template-1
-application-purpose-2
-uses-2
