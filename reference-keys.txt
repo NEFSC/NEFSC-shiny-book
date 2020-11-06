@@ -11,6 +11,11 @@ application-purpose-1
 uses-1
 northeast-right-whale-shiny-apps
 application-purpose-2
+aerial-survey-processing-app
+trigger-analysis
+photo-position-finder
+how-often-is-it-used
+has-it-been-used-in-management
 useful-resources
 articlesbooks
 videos

@@ -24,7 +24,7 @@
 <meta name="author" content="R shiny group" />
 
 
-<meta name="date" content="2020-11-04" />
+<meta name="date" content="2020-11-06" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -89,7 +89,14 @@
 </ul></li>
 <li class="chapter" data-level="4" data-path="northeast-right-whale-shiny-apps.html"><a href="northeast-right-whale-shiny-apps.html"><i class="fa fa-check"></i><b>4</b> Northeast Right Whale Shiny Apps</a>
 <ul>
-<li class="chapter" data-level="4.1" data-path="northeast-right-whale-shiny-apps.html"><a href="northeast-right-whale-shiny-apps.html#application-purpose-2"><i class="fa fa-check"></i><b>4.1</b> Application Purpose</a></li>
+<li class="chapter" data-level="4.1" data-path="northeast-right-whale-shiny-apps.html"><a href="northeast-right-whale-shiny-apps.html#application-purpose-2"><i class="fa fa-check"></i><b>4.1</b> Application Purpose</a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="northeast-right-whale-shiny-apps.html"><a href="northeast-right-whale-shiny-apps.html#aerial-survey-processing-app"><i class="fa fa-check"></i><b>4.1.1</b> Aerial Survey Processing App</a></li>
+<li class="chapter" data-level="4.1.2" data-path="northeast-right-whale-shiny-apps.html"><a href="northeast-right-whale-shiny-apps.html#trigger-analysis"><i class="fa fa-check"></i><b>4.1.2</b> Trigger Analysis</a></li>
+<li class="chapter" data-level="4.1.3" data-path="northeast-right-whale-shiny-apps.html"><a href="northeast-right-whale-shiny-apps.html#photo-position-finder"><i class="fa fa-check"></i><b>4.1.3</b> Photo Position Finder</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="northeast-right-whale-shiny-apps.html"><a href="northeast-right-whale-shiny-apps.html#how-often-is-it-used"><i class="fa fa-check"></i><b>4.2</b> How often is it used?</a></li>
+<li class="chapter" data-level="4.3" data-path="northeast-right-whale-shiny-apps.html"><a href="northeast-right-whale-shiny-apps.html#has-it-been-used-in-management"><i class="fa fa-check"></i><b>4.3</b> Has it been used in management?</a></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="useful-resources.html"><a href="useful-resources.html"><i class="fa fa-check"></i><b>5</b> Useful Resources</a>
 <ul>
@@ -122,20 +129,36 @@
 <p><strong>Apps Name</strong>: <a href="http://shiny1.nefsc.noaa.gov:3838/lcrowe/narwss_rwsas_apps/">Northeast Right Whale Shiny Apps</a></p>
 <p><strong>Developer(s)</strong>: Leah Crowe</p>
 <p><strong>Point of contact</strong>: Leah Crowe, <a href="mailto:leah.crowe@noaa.gov" class="email">leah.crowe@noaa.gov</a> (Protected Species Branch)</p>
-<p><strong>Keywords</strong>: Keyword 1, Keyword 2, Keyword 3</p>
-<p><strong>Key Packages</strong>: list of important/unique packages used</p>
+<p><strong>Keywords</strong>: Survey data, sightings, trigger analysis, pdf, report</p>
+<p><strong>Key Packages</strong>: leaflet, leaflet.esri, igraph, rgdal, rhandsontable, rmarkdown, rodbc, tinytex, webshot</p>
 <p><strong>GitHub</strong>: <a href="https://github.com/leahcrowe/narwss_rwsas_apps">link to app dev code</a></p>
 <div id="application-purpose-2" class="section level2" number="4.1">
 <h2><span class="header-section-number">4.1</span> Application Purpose</h2>
-<p>Aerial Survey Processing App</p>
+<div id="aerial-survey-processing-app" class="section level3" number="4.1.1">
+<h3><span class="header-section-number">4.1.1</span> Aerial Survey Processing App</h3>
+<p>This app aids the user in processing aerial survey data and generating a report pdf that is then emailed to stakeholders. Any right whale sightings are then intergrated into the <a href="https://apps-nefsc.fisheries.noaa.gov/psb/surveys/MapperiframeWithText.html">Right Whale Sightings Advisory System</a> and the “Trigger Analysis” app (below) is used to evalute for potential dynamic protection zones.</p>
 <p><img src="images/NERWapp.AerialSurvey.PNG" /><!-- --></p>
-<p>Trigger Analysis</p>
+</div>
+<div id="trigger-analysis" class="section level3" number="4.1.2">
+<h3><span class="header-section-number">4.1.2</span> Trigger Analysis</h3>
+<p>This app is used to evaluate if visual sightings or acoustic detections trigger dynamic management areas (aka right whale SLOW zones), and then it calculates the boundaries. A report and letter are generated here that detail the area where vessels should reduce their speeds, and these products are then emailed to GARFO to initiate the request. A kml is also generated which is used to display the zone on the <a href="https://apps-nefsc.fisheries.noaa.gov/psb/surveys/MapperiframeWithText.html">Right Whale Sightings Advisory System</a> interactive map.</p>
 <p><img src="images/NERWapp.TriggerAnalysis.PNG" /><!-- --></p>
-<p>Photo Position Finder</p>
-<p><img src="images/NERWapp.PhotoPosition.PNG" /><!-- -->
-## Uses</p>
-<p>How often is it used?</p>
-<p>Has it been used in management?</p>
+</div>
+<div id="photo-position-finder" class="section level3" number="4.1.3">
+<h3><span class="header-section-number">4.1.3</span> Photo Position Finder</h3>
+<p>This app will finalize the photo submission spreadsheet NEFSC submits to the North Atlantic Right whale Consortium by gathering latitude and longitude from the .gps files for the date and time specified. From this position, “Area” will be determined and other details are auto-filled.</p>
+<p><img src="images/NERWapp.PhotoPosition.PNG" /><!-- --></p>
+</div>
+</div>
+<div id="how-often-is-it-used" class="section level2" number="4.2">
+<h2><span class="header-section-number">4.2</span> How often is it used?</h2>
+<p>The Aerial Survey Processing App is used after every right whale aerial survey – for example, in 2019, NEFSC surveyed for right whales on 92 different days, so this is a frequently used tool.</p>
+<p>The Trigger Analysis App is used each time a right whale sighting is reported to the Right Whale Sighting Advisory System to evaluate for a dynamic protection zone. In 2019, Dynamic Management Areas were initiated or extended 29 times, but the app was used more than this to evaluate sightings that also did not trigger these zones.</p>
+<p>The Photo Position Finder App is generally only used 2–3 times a year when we organize our photo data for submission.</p>
+</div>
+<div id="has-it-been-used-in-management" class="section level2" number="4.3">
+<h2><span class="header-section-number">4.3</span> Has it been used in management?</h2>
+<p>This app is used to inform and request management decisions and is an integral part to the <a href="https://www.fisheries.noaa.gov/feature-story/help-endangered-whales-slow-down-slow-zones">Right Whale SLOW zone</a> program.</p>
 
 </div>
 </div>
