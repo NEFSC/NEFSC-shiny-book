@@ -50,4 +50,4 @@ The Photo Position Finder App is generally only used 2–3 times a year when we 
 
 ## Has it been used in management?
 
-This app is used to inform and request management decisions and is an integral part to the [Right Whale SLOW zone](https://www.fisheries.noaa.gov/feature-story/help-endangered-whales-slow-down-slow-zones) program. 
+This app is used to inform and request management decisions and is an integral part of the [Right Whale SLOW zone](https://www.fisheries.noaa.gov/feature-story/help-endangered-whales-slow-down-slow-zones) program. 
