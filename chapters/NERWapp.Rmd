@@ -10,7 +10,7 @@
 
 **Key Packages**: leaflet, leaflet.esri, igraph, rgdal, rhandsontable, rmarkdown, rodbc, tinytex, webshot
 
-**GitHub**: [link to app dev code](https://github.com/leahcrowe/narwss_rwsas_apps)
+**GitHub**: [leahcrowe](https://github.com/leahcrowe/narwss_rwsas_apps)
 
 ## Application Purpose
 
