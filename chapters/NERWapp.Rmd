@@ -16,7 +16,7 @@
 
 ### Aerial Survey Processing App 
 
-This app aids the user in processing aerial survey data and generating a report pdf that is then emailed to stakeholders. Any right whale sightings are then intergrated into the [Right Whale Sightings Advisory System](https://apps-nefsc.fisheries.noaa.gov/psb/surveys/MapperiframeWithText.html) and the "Trigger Analysis" app (below) is used to evalute for potential dynamic protection zones.
+This app aids the user in processing aerial survey data and generating a report pdf that is then emailed to stakeholders. Any right whale sightings are then intergrated into the [Right Whale Sightings Advisory System](https://apps-nefsc.fisheries.noaa.gov/psb/surveys/MapperiframeWithText.html) and the "Trigger Analysis" app (below) is used to evaluate for potential dynamic protection zones.
 
 ```{r, echo=FALSE}
 knitr::include_graphics(file.path(image.dir,"NERWapp.AerialSurvey.png"))
@@ -46,7 +46,7 @@ The Aerial Survey Processing App is used after every right whale aerial survey -
 
 The Trigger Analysis App is used each time a right whale sighting is reported to the Right Whale Sighting Advisory System to evaluate for a dynamic protection zone. In 2019, Dynamic Management Areas were initiated or extended 29 times, but the app was used more than this to evaluate sightings that also did not trigger these zones. 
 
-The Photo Position Finder App is generally only used 2–3 times a year when we organize our photo data for submission.  
+The Photo Position Finder App is generally used 2–3 times a year when we organize our photo data for submission.  
 
 ## Has it been used in management?
 
