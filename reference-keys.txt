@@ -16,6 +16,12 @@ trigger-analysis
 photo-position-finder
 how-often-is-it-used
 has-it-been-used-in-management
+biological-sample-monitoring-database-query-tool
+application-purpose-3
+user-specifications
+app-results
+how-often-is-it-used-1
+has-it-been-used-in-management-1
 useful-resources
 articlesbooks
 videos
