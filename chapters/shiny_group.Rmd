@@ -1,9 +1,9 @@
 # The shiny group {#group}
 
-|Member|Branch|
-|---|---|
-|Andy Beet|EDAB|
-|Kim Bastille|EDAB|
-|Leah Crowe|PSB|
+|   Member   | Branch  | email | github username |
+|------------|---------|-------|-----------------|
+| Andy Beet | EDAB | andrew.beet@noaa.gov | andybeet |
+| Kim Bastille | EDAB | kimberly.bastille@noaa.gov | kimberly-bastille |
+| Leah Crowe | PSB | leah.crowe@noaa.gov | leahcrowe |
 
 
