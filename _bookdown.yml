@@ -4,6 +4,7 @@ rmd_files: ["index.Rmd",
 "chapters/Template.Rmd",
 "chapters/NERWapp.Rmd",
 "chapters/BioSamplingApp.Rmd",
+"chapters/ObserverDataPortal.Rmd",
 "chapters/Useful_Resources.Rmd",
 "chapters/shiny_group.Rmd"]
 delete_merged_file: true
