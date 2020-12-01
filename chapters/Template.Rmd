@@ -20,9 +20,8 @@ Description of app.
 knitr::include_graphics(file.path(image.dir,"example.png"))
 ```
 
-## Uses
 
-How often is it used? 
+## How often is it used? 
 
-Has it been used in management?
+## Has it been used in management?
 
