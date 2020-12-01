@@ -27,7 +27,7 @@ knitr::include_graphics(file.path(image.dir,"BioSamplingLand.png"))
 
 ### App Results
 
-Once the query has finished executed, the results are divided into tabs across the top. 
+Once the query has finished executing, the results are divided into tabs across the top. 
 The **Collected Samples** tab shows a table of sample collection results that can be sorted, searched, and downloaded followed by some interactive bar plots showing details of the demographics of length and age samples collected each year. 
 
 ```{r, echo=FALSE}
