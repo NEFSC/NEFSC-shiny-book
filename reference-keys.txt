@@ -19,6 +19,11 @@ user-specifications
 app-results
 how-often-is-it-used-1
 has-it-been-used-in-management-1
+observer-data-spatial-portal
+application-purpose-3
+user-specifications-1
+app-results-1
+how-often-is-it-used-2
 useful-resources
 articlesbooks
 videos
