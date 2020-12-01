@@ -26,14 +26,15 @@ knitr::include_graphics(file.path(image.dir,"ObserverMain.png"))
 ### App Results
 
 Once the query has finished executing, a map displaying catches in ten minute spatial squares appears in the **Map** tab. This map can be saved as a png file by clicking the **Download Map** button on the left panel below the **RUN** button.
+
 ```{r, echo=FALSE}
 knitr::include_graphics(file.path(image.dir,"ObserverMapOutput.png"))
 ```
+
 A second tab, **Table** shows the raw observed catch data used in the map summary. It is important to note that this data does not meet the confidentiality requirements and should not be displayed in a public setting, but is more for the analyst use. This data table can be downloaded using the **Download Data** button on the left panel below the **RUN** button. The user has the option to also view and download data where position information is not available and therefore not displayed in the map.
-```{r, echo=FALSE}
-knitr::include_graphics(file.path(image.dir,"ObserverTable.png"))
-```
+
 A brief summary of the data is also displayed at the bottom of the left panel including the total number of observed catch records and a histogram of the number of records per year.
+
 ```{r, echo=FALSE}
 knitr::include_graphics(file.path(image.dir,"ObserverMain2.png"))
 ```
