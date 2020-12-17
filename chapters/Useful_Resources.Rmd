@@ -5,7 +5,9 @@ These are resources that the NEFSC R Shiny group have found useful in the develo
 ## Articles/Books
 
 Shiny Tutorial from Rstudio - https://shiny.rstudio.com/tutorial/
+Shiny Gallery with code - https://shiny.rstudio.com/gallery/
 
 ## Videos
 
-
+Shiny Developer Conference talks - https://rstudio.com/resources/shiny-dev-con-2016/
+Various Shiny Tutorials - https://rstudio.com/resources/webinars/
