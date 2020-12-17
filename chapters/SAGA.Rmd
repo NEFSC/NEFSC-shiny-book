@@ -2,7 +2,7 @@
 
 **Apps Name**: [SAGA](http://shiny1.nefsc.noaa.gov:3838/amiller/SAGAbeta/)
 
-**Developer(s)**: Alicia Miller
+**Developer(s)**: Alicia Miller, Dan Hennen
   
 **Point of contact**: Alicia Miller, <alicia.miller@noaa.gov> (Population Dynamics Branch/Protected Species Branch)
   
