@@ -1,0 +1,31 @@
+# SAGA
+
+**Apps Name**: [SAGA](http://shiny1.nefsc.noaa.gov:3838/amiller/SAGAbeta/)
+
+**Developer(s)**: Alicia Miller
+  
+**Point of contact**: Alicia Miller, <alicia.miller@noaa.gov> (Population Dynamics Branch/Protected Species Branch)
+  
+**Keywords**: fisheries independent data, stock assessment, index of abundance
+
+**Key Packages**: rodbc, rgdal, leaflet, htmlwidgets
+
+## Application Purpose
+
+Stock assessments analyze and report population dynamics including information on changes in abundane of fishery stocks in response to fishing and the environment. Population models utilize fishery-independent data to estimeate a time series of abundance, age structure, and fishing mortality. The NEFSC Bottom Trawl Surveys are the longest running, continuous time-series of bottom fish and marine invertebrate sampling in the world and one of the main sources of fishery-independent data used in stock assessments in the Northeastern United States. The original SAGA (Survey Area Graphical Analysis) was developed as a tool for assessment scientists to pull survey data from the Oracle database with various user specifications (species, years, seasons, strata, gear and vessel calibrations, etc.). With recent updates this application has depreciated and this new Shiny SAGA application was developed.
+
+### User Specifications
+
+Under the **Survey Indices** section, the user populates the widgets in the interface (Oracle username and password, strata, species, season, range of years, range of lengths/ages, tow evaluation specifics, and calibration settings) and then clicks the **RUN** button to begin the query/analysis. A status bar showing progress then appears in the bottom right corner of the page until the process is complete and a plot of the indices over time is displayed. A **Help** tab can be found in the dashboard that provides guidance on the various user specifications.  
+
+```{r, echo=FALSE}
+knitr::include_graphics(file.path(image.dir,"SAGA.png"))
+```
+
+### App Results
+
+Survey indices and raw catch data are available for download using the **Download .csv Data** or **Download RData** buttons. Still in progress is a **Maps** tab that shows an interactive Leaflet map of the survey catch data based on the user specifications going into the index calculation. This map can be saved as an html file by clicking the **Download Map** button.
+
+## How often is it used? 
+
+This app is useful anytime an assessment scientist or manager is interested in what the survey index looks like across a specified area. It allows analysts to experiment with different specifications for stock definitions, different length and age distributions, calibrations, or tow success criteria. It also provides data that can be used to explore spatial and temporal trends in survey catch. It may also be useful during stock assessment review meetings to help answer questions. 

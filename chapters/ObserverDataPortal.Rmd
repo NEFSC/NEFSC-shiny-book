@@ -41,4 +41,4 @@ knitr::include_graphics(file.path(image.dir,"ObserverMain2.png"))
 
 ## How often is it used? 
 
-The Observer Data Spatial Portal is generally used anytime a stock assessment analyst is looking for information about spatial and temporal trends in commercial catch. It may also be used during stock assessment review meetings to help answer questions or by the working group throughout the stock assessment process to help understand where observer coverage exists and the spatial extent of a fishing fleet throughout the year. 
+The Observer Data Spatial Portal is generally used anytime a stock assessment analyst is looking for information about spatial and temporal trends in commercial fishing. It may also be used during stock assessment review meetings to help answer questions or by the working group throughout the stock assessment process to help understand where observer coverage exists and the spatial extent of a fishing fleet throughout the year. 
