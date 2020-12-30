@@ -6,6 +6,7 @@ rmd_files: ["index.Rmd",
 "chapters/BioSamplingApp.Rmd",
 "chapters/ObserverDataPortal.Rmd",
 "chapters/SAGA.RMD",
+"chapters/R3.Rmd",
 "chapters/Useful_Resources.Rmd",
 "chapters/shiny_group.Rmd"]
 delete_merged_file: true
