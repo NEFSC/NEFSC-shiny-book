@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>5 Observer Data Spatial Portal | NEFSC R Shiny Book</title>
+  <title>7 Template | NEFSC R Shiny Book</title>
   <meta name="description" content="This book documents nothing yet" />
   <meta name="generator" content="bookdown 0.20.3 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="5 Observer Data Spatial Portal | NEFSC R Shiny Book" />
+  <meta property="og:title" content="7 Template | NEFSC R Shiny Book" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="kimberly-bastille/shiny-book" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="5 Observer Data Spatial Portal | NEFSC R Shiny Book" />
+  <meta name="twitter:title" content="7 Template | NEFSC R Shiny Book" />
   
   <meta name="twitter:description" content="This book documents nothing yet" />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="biological-sample-monitoring-database-query-tool.html"/>
-<link rel="next" href="saga.html"/>
+<link rel="prev" href="saga.html"/>
+<link rel="next" href="useful-resources.html"/>
 <script src="asset/header-attrs-2.3/header-attrs.js"></script>
 <script src="asset/jquery-2.2.3/jquery.min.js"></script>
 <link href="asset/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -152,34 +152,22 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="observer-data-spatial-portal" class="section level1" number="5">
-<h1><span class="header-section-number">5</span> Observer Data Spatial Portal</h1>
-<p><strong>Apps Name</strong>: <a href="http://shiny1.nefsc.noaa.gov:3838/amiller/ObserverMap/">Observer Data Spatial Portal</a></p>
-<p><strong>Developer(s)</strong>: Alicia Miller</p>
-<p><strong>Point of contact</strong>: Alicia Miller, <a href="mailto:alicia.miller@noaa.gov" class="email">alicia.miller@noaa.gov</a> (Population Dynamics Branch/Protected Species Branch)</p>
-<p><strong>Keywords</strong>: commercial fisheries data, stock assessment, fisheries observer data</p>
-<p><strong>Key Packages</strong>: rodbc, rgdal, pbsmapping, sp</p>
-<div id="application-purpose-3" class="section level2" number="5.1">
-<h2><span class="header-section-number">5.1</span> Application Purpose</h2>
-<p>The Northeast Fisheries Observer Program collects data from commercial fishing vessels and processors both on-board the vessel and dockside. Observers collect information on catch and bycatch composition, protected species interactions, and gear configurations. Observer data directly inform stock assessments which monitor the exploitation rate of fisheries. Stock assessments use observer data to estimate discards/bycatch and ,if dockside monitoring is limited, the size and age composition of landings. In addition to monitoring discard amounts, observer data can provide a more detailed look at fishing behavior.
-This app was developed to explore the spatial and temporal aspects of existing observer data and provide an efficient tool for stock assessment. It gives analysts and reviewers the opportunity to efficiently query and visualize observer data throughout the assessment process. The user can subset the data by catch type, species, gear type, and by month(s) and year(s). The option to overlay fall and/or spring NEFSC Bottom Trawl Survey catches is also available. Users can adjust the catch size bins in the legend and download all data into a csv file or save the currently displayed map as an image.</p>
-<div id="user-specifications-1" class="section level3" number="5.1.1">
-<h3><span class="header-section-number">5.1.1</span> User Specifications</h3>
-<p>The user populates the widgets in the interface on the left side of the page (catch type, species, gear type, range of years and months, catch bin sizes, and option to overlay spring or fall survey data) and then clicks the <strong>RUN</strong> button to begin the query. A status bar showing progress then appears in the bottom right corner of the page until the process is complete and the map in the main panel refreshes.</p>
-<p><img src="images/ObserverMain.png" /><!-- --></p>
+<div id="template" class="section level1" number="7">
+<h1><span class="header-section-number">7</span> Template</h1>
+<p><strong>Apps Name</strong>: <a href="http://shiny1.nefsc.noaa.gov:3838/R3/">R3 (Recognizing Random Residuals)</a></p>
+<p><strong>Developer(s)</strong>: Chris Legault</p>
+<p><strong>Point of contact</strong>: Chris Legault, <a href="mailto:chris.legault@noaa.gov" class="email">chris.legault@noaa.gov</a> (Population Dynamics Branch)</p>
+<p><strong>Keywords</strong>: game, residuals, bubble plot</p>
+<p><strong>Key Packages</strong>: dplyr, tidyr, ggplot2</p>
+<p><strong>GitHub</strong>: <a href="https://github.com/cmlegault/R3">cmlegault/R3</a></p>
+<div id="application-purpose-5" class="section level2" number="7.1">
+<h2><span class="header-section-number">7.1</span> Application Purpose</h2>
+<p>Think you can recognize when residuals are random versus biased? Here’s a game to let you see how good you really are. Start with the ‘Demo’ tab to see how the different biases look. Use the ‘Settings’ tab to create a situation like you are accustomed to seeing in your or someone else’s assessment. The ‘Random or Not?’ tab is the fun part. A plot is provided and you guess whether the residuals are random or biased with immediate feedback. The ‘Results so far’ tab lets you see how you are doing. Can you do better than random? If so, bump up the difficulty a notch and try again.</p>
+<p><img src="images/R3.png" /><!-- --></p>
 </div>
-<div id="app-results-1" class="section level3" number="5.1.2">
-<h3><span class="header-section-number">5.1.2</span> App Results</h3>
-<p>Once the query has finished executing, a map displaying catches in ten minute spatial squares appears in the <strong>Map</strong> tab. This map can be saved as a png file by clicking the <strong>Download Map</strong> button on the left panel below the <strong>RUN</strong> button.</p>
-<p><img src="images/ObserverMapOutput.png" /><!-- --></p>
-<p>A second tab, <strong>Table</strong> shows the raw observed catch data used in the map summary. It is important to note that this data does not meet the confidentiality requirements and should not be displayed in a public setting, but is more for the analyst use. This data table can be downloaded using the <strong>Download Data</strong> button on the left panel below the <strong>RUN</strong> button. The user has the option to also view and download data where position information is not available and therefore not displayed in the map.</p>
-<p>A brief summary of the data is also displayed at the bottom of the left panel including the total number of observed catch records and a histogram of the number of records per year.</p>
-<p><img src="images/ObserverMain2.png" /><!-- --></p>
-</div>
-</div>
-<div id="how-often-is-it-used-2" class="section level2" number="5.2">
-<h2><span class="header-section-number">5.2</span> How often is it used?</h2>
-<p>The Observer Data Spatial Portal is generally used anytime a stock assessment analyst is looking for information about spatial and temporal trends in commercial fishing. It may also be used during stock assessment review meetings to help answer questions or by the working group throughout the stock assessment process to help understand where observer coverage exists and the spatial extent of a fishing fleet throughout the year.</p>
+<div id="how-often-is-it-used-4" class="section level2" number="7.2">
+<h2><span class="header-section-number">7.2</span> How often is it used?</h2>
+<p>When first developed, many members of the Population Dynamics Branch used the R3 app to test their ability to recognize random residuals in age composition plots. Many were surprised by often they were fooled, thinking random plots were not or vice versa. Results were used to modify the colors used in bubble plots in the <a href="https://github.com/cmlegault/ASAPplots">ASAPplots</a> R package used with the ASAP stock assessment program. A READ speed talk in December 2019 introduced the R3 app to a wider audience (the Resource Evaluation and Assessment Division), with a subsequent increase in usage. The R3 app is used occasionally as people wish to refresh their ability to recognize random residuals in bubble plots.</p>
 
 </div>
 </div>
@@ -188,8 +176,8 @@ This app was developed to explore the spatial and temporal aspects of existing o
           </div>
         </div>
       </div>
-<a href="biological-sample-monitoring-database-query-tool.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="saga.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="saga.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="useful-resources.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="asset/gitbook-2.6.7/js/app.min.js"></script>
