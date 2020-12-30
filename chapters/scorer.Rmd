@@ -2,7 +2,7 @@
 
 **Apps Name**: [scorer](http://shiny1.nefsc.noaa.gov:3838/clegault/scorer/)
 
-**Developer(s)**: DChris Legault
+**Developer(s)**: Chris Legault
   
 **Point of contact**: Chris Legault, <chris.legault@noaa.gov> (Population Dynamics Branch)
   
