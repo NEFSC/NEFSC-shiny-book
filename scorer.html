@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>7 R3 | NEFSC R Shiny Book</title>
+  <title>8 Scorer | NEFSC R Shiny Book</title>
   <meta name="description" content="This book documents nothing yet" />
   <meta name="generator" content="bookdown 0.20.3 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="7 R3 | NEFSC R Shiny Book" />
+  <meta property="og:title" content="8 Scorer | NEFSC R Shiny Book" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="kimberly-bastille/shiny-book" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="7 R3 | NEFSC R Shiny Book" />
+  <meta name="twitter:title" content="8 Scorer | NEFSC R Shiny Book" />
   
   <meta name="twitter:description" content="This book documents nothing yet" />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="saga.html"/>
-<link rel="next" href="scorer.html"/>
+<link rel="prev" href="r3.html"/>
+<link rel="next" href="useful-resources.html"/>
 <script src="asset/header-attrs-2.3/header-attrs.js"></script>
 <script src="asset/jquery-2.2.3/jquery.min.js"></script>
 <link href="asset/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -158,22 +158,26 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="r3" class="section level1" number="7">
-<h1><span class="header-section-number">7</span> R3</h1>
-<p><strong>Apps Name</strong>: <a href="http://shiny1.nefsc.noaa.gov:3838/R3/">R3 (Recognizing Random Residuals)</a></p>
-<p><strong>Developer(s)</strong>: Chris Legault</p>
+<div id="scorer" class="section level1" number="8">
+<h1><span class="header-section-number">8</span> Scorer</h1>
+<p><strong>Apps Name</strong>: <a href="http://shiny1.nefsc.noaa.gov:3838/clegault/scorer/">scorer</a></p>
+<p><strong>Developer(s)</strong>: DChris Legault</p>
 <p><strong>Point of contact</strong>: Chris Legault, <a href="mailto:chris.legault@noaa.gov" class="email">chris.legault@noaa.gov</a> (Population Dynamics Branch)</p>
-<p><strong>Keywords</strong>: game, residuals, bubble plot</p>
-<p><strong>Key Packages</strong>: dplyr, tidyr, ggplot2</p>
-<p><strong>GitHub</strong>: <a href="https://github.com/cmlegault/R3">cmlegault/R3</a></p>
-<div id="application-purpose-5" class="section level2" number="7.1">
-<h2><span class="header-section-number">7.1</span> Application Purpose</h2>
-<p>Think you can recognize when residuals are random versus biased? Here’s a game to let you see how good you really are. Start with the ‘Demo’ tab to see how the different biases look. Use the ‘Settings’ tab to create a situation like you are accustomed to seeing in your or someone else’s assessment. The ‘Random or Not?’ tab is the fun part. A plot is provided and you guess whether the residuals are random or biased with immediate feedback. The ‘Results so far’ tab lets you see how you are doing. Can you do better than random? If so, bump up the difficulty a notch and try again.</p>
-<p><img src="images/R3.png" /><!-- --></p>
+<p><strong>Keywords</strong>: simulation, IBMWG, scoring</p>
+<p><strong>Key Packages</strong>: tidyverse</p>
+<p><strong>GitHub</strong>: <a href="https://github.com/cmlegault/IBMWG/tree/master/demonstrations/chris/scorer_app">scorer_app</a></p>
+<div id="application-purpose-6" class="section level2" number="8.1">
+<h2><span class="header-section-number">8.1</span> Application Purpose</h2>
+<p>The Index Based Methods Working Group (IBMWG) generated about 300 GB of simulation results comparing 14 approaches to providing catch advice across a range of situations. There were 50 performance metrics computed from each of 1,000 simulations across the methods and scenarios. Exploration of this large amount of information was facilitated by the use of the scorer app to compute the rank or residual score for any combination of metrics from the base, no retrospective, or statistical catch at age sets of analyses. This app was recommended for use by the peer review panel that met Dec 7-11, 2020.</p>
+<p><img src="images/scorer.png" /><!-- --></p>
 </div>
-<div id="how-often-is-it-used-4" class="section level2" number="7.2">
-<h2><span class="header-section-number">7.2</span> How often is it used?</h2>
-<p>When first developed, many members of the Population Dynamics Branch used the R3 app to test their ability to recognize random residuals in age composition plots. Many were surprised by often they were fooled, thinking random plots were not or vice versa. Results were used to modify the colors used in bubble plots in the <a href="https://github.com/cmlegault/ASAPplots">ASAPplots</a> R package used with the ASAP stock assessment program. A READ speed talk in December 2019 introduced the R3 app to a wider audience (the Resource Evaluation and Assessment Division), with a subsequent increase in usage. The R3 app is used occasionally as people wish to refresh their ability to recognize random residuals in bubble plots.</p>
+<div id="how-often-is-it-used-5" class="section level2" number="8.2">
+<h2><span class="header-section-number">8.2</span> How often is it used?</h2>
+<p>The scorer app was used extensively by the IBMWG to explore performance of the different index based methods across the range of scenarios. This work continues and it is expected that these results will continue to provide useful information ragarding situations that are or are not well suited for specific index based methods. Further develop of the app was recommended during the peer review to address the issue of “bigger is better” across all metrics.</p>
+</div>
+<div id="has-it-been-used-in-management-2" class="section level2" number="8.3">
+<h2><span class="header-section-number">8.3</span> Has it been used in management?</h2>
+<p>The app was recommended for use as a communication tool with managers. However, the limitations of the current shiny1 server to only users who can get behind the firewall makes this recommendation challenging. Currently, managers who wish to use this app must download the software from the GitHub site and run it locally. Creating a fully open shiny server would increase the utility and ease of use of this app by managers.</p>
 
 </div>
 </div>
@@ -182,8 +186,8 @@
           </div>
         </div>
       </div>
-<a href="saga.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="scorer.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="r3.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="useful-resources.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="asset/gitbook-2.6.7/js/app.min.js"></script>

@@ -32,6 +32,10 @@ how-often-is-it-used-3
 r3
 application-purpose-5
 how-often-is-it-used-4
+scorer
+application-purpose-6
+how-often-is-it-used-5
+has-it-been-used-in-management-2
 useful-resources
 articlesbooks
 videos
