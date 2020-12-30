@@ -1,4 +1,4 @@
-# Template
+# R3
 
 **Apps Name**: [R3 (Recognizing Random Residuals)](http://shiny1.nefsc.noaa.gov:3838/R3/)
 
