@@ -36,6 +36,10 @@ scorer
 application-purpose-6
 how-often-is-it-used-5
 has-it-been-used-in-management-2
+limiter
+application-purpose-7
+how-often-is-it-used-6
+has-it-been-used-in-management-3
 useful-resources
 articlesbooks
 videos
