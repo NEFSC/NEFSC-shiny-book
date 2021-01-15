@@ -26,7 +26,11 @@ knitr::include_graphics(file.path(image.dir,"SAGA.png"))
 
 ### App Results
 
-Survey indices and raw catch data are available for download using the **Download .csv Data** or **Download RData** buttons. Still in progress is a **Maps** tab that shows an interactive Leaflet map of the survey catch data based on the user specifications going into the index calculation. This map can be saved as an html file by clicking the **Download Map** button.
+Survey indices and raw catch data are available for download using the **Download .csv Data** or **Download RData** buttons. A **Maps** tab shows an interactive Leaflet map of the survey catch data based on the user specifications going into the index calculation. This map can be saved as an html file by clicking the **Download Map** button.
+
+```{r, echo=FALSE}
+knitr::include_graphics(file.path(image.dir,"SAGAMap.png"))
+```
 
 ## How often is it used? 
 
