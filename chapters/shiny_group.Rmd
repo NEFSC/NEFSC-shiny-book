@@ -5,10 +5,8 @@
 | Andy Beet | EDAB | andrew.beet@noaa.gov | andybeet |
 | Kim Bastille | EDAB | kimberly.bastille@noaa.gov | kimberly-bastille |
 | Leah Crowe | PSB | leah.crowe@noaa.gov | leahcrowe |
-<<<<<<< HEAD
 | Alicia Miller | PDB/PSB | alicia.miller@noaa.gov | alomiller |
-=======
 | Beth Josephson | PSB | elizabeth.josephson@noaa.gov | bethjosephson |
->>>>>>> fb922b8557fe66f0c4f363e2d2a6ade920f12fc4
+
 
 
