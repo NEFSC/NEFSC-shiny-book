@@ -1,7 +1,7 @@
 book_filename: "shiny-book"
 rmd_files: ["index.Rmd",
+"chapters/App_chapters.Rmd",
 "chapters/authenticate.Rmd",
-#"chapters/Template.Rmd",
 "chapters/NERWapp.Rmd",
 "chapters/BioSamplingApp.Rmd",
 "chapters/ObserverDataPortal.Rmd",
