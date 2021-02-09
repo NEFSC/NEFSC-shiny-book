@@ -1,4 +1,4 @@
-# Authentication
+## Authentication
 
 **App name**: [authenticate](http://shiny1.nefsc.noaa.gov:3838/abeet/authenticate/)
 
@@ -12,7 +12,7 @@
 
 **GitHub**: [https://github.com/andybeet/authenticate](https://github.com/andybeet/authenticate)
 
-## Application Purpose
+### Application Purpose
 
 A simple front end to authenticate a user. Authentication is based on database access credentials. If another app requires access to an internal database this front end can be included in the app to add a layer of authentication.
 
@@ -20,7 +20,7 @@ A simple front end to authenticate a user. Authentication is based on database a
 knitr::include_graphics(file.path(image.dir,"authenticate.png"))
 ```
 
-## Uses
+### Uses
 
 Not presently incorporated into any other app. However several other apps currently in development may benefit from its use.
 
