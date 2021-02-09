@@ -3,6 +3,7 @@ welcome
 getting-started
 creds
 saving-the-app
+shiny-apps
 authentication
 application-purpose
 uses
