@@ -1,4 +1,4 @@
-book_filename: "shiny-book"
+book_filename: "READ-shiny-book"
 rmd_files: ["index.Rmd",
 "chapters/App_chapters.Rmd",
 "chapters/authenticate.Rmd",
