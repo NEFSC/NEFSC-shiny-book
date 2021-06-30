@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>4 Useful Resources | NEFSC R Shiny Book</title>
+  <title>3 State of the Ecosystem Time Series Analysis | NEFSC R Shiny Book</title>
   <meta name="description" content="This book documents nothing yet" />
   <meta name="generator" content="bookdown 0.20.3 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="4 Useful Resources | NEFSC R Shiny Book" />
+  <meta property="og:title" content="3 State of the Ecosystem Time Series Analysis | NEFSC R Shiny Book" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="kimberly-bastille/READ-shiny-book" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="4 Useful Resources | NEFSC R Shiny Book" />
+  <meta name="twitter:title" content="3 State of the Ecosystem Time Series Analysis | NEFSC R Shiny Book" />
   
   <meta name="twitter:description" content="This book documents nothing yet" />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="state-of-the-ecosystem-time-series-analysis.html"/>
-<link rel="next" href="group.html"/>
+<link rel="prev" href="shiny-apps.html"/>
+<link rel="next" href="useful-resources.html"/>
 <script src="asset/header-attrs-2.3/header-attrs.js"></script>
 <script src="asset/jquery-2.2.3/jquery.min.js"></script>
 <link href="asset/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -161,18 +161,40 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="useful-resources" class="section level1" number="4">
-<h1><span class="header-section-number">4</span> Useful Resources</h1>
-<p>These are resources that the NEFSC R Shiny group have found useful in the development of our Shiny Apps.</p>
-<div id="articlesbooks" class="section level2" number="4.1">
-<h2><span class="header-section-number">4.1</span> Articles/Books</h2>
-<p>Shiny Tutorial from Rstudio - <a href="https://shiny.rstudio.com/tutorial/" class="uri">https://shiny.rstudio.com/tutorial/</a>
-Shiny Gallery with code - <a href="https://shiny.rstudio.com/gallery/" class="uri">https://shiny.rstudio.com/gallery/</a></p>
+<div id="state-of-the-ecosystem-time-series-analysis" class="section level1" number="3">
+<h1><span class="header-section-number">3</span> State of the Ecosystem Time Series Analysis</h1>
+<p><strong>Apps Name</strong>: <a href="https://github.com/NOAA-EDAB/soetrends">State of the Ecosystem Time Series Analysis</a></p>
+<p><strong>Developer(s)</strong>: Kimberly Bastille</p>
+<p><strong>Point of contact</strong>: Kimberly Bastille, <a href="mailto:kimberly.bastille@noaa.gov" class="email">kimberly.bastille@noaa.gov</a> (EDAB)</p>
+<p><strong>Keywords</strong>: SOE, IEA, Trend Analysis, GAM</p>
+<p><strong>Key Packages</strong>: NOAA-EDAB/ecodata, DT, tidyr, dplyr, ggplot2, mgcv</p>
+<p><strong>GitHub</strong>: <a href="https://github.com/NOAA-EDAB/soetrends">kimberly-bastille/soetrends</a></p>
+<div id="application-purpose-8" class="section level2" number="3.1">
+<h2><span class="header-section-number">3.1</span> Application Purpose</h2>
+<p>The purpose of this shiny app is to explore Generlized Additive Models for ecosystem indicators used in the State of the Ecosystem reports. The State of the Ecosystem reports are compiled to present synthesized ecosystem information to fisheries managers in New England and the Mid-Altantic. The trends applied to timeseries over 30 years are linear and from request from the science and statistical committees we are exploring more complex trends using GAMs. This shiny app can be used to explore time series analysis for datasets where it appears linear may not be the most appropriate.</p>
+<div id="gam-plots" class="section level3" number="3.1.1">
+<h3><span class="header-section-number">3.1.1</span> GAM Plots</h3>
+<p>Many datasets included in the State of the Ecosystem reports are loaded into this app. The figure shows that data points and the current SOE trend line in solid orange or purple depending on positive or negative trends. The GAM can be scaled with the knots and smoother function slider and are visualized by dashed line where areas with significant trends are colored either orange or purple depending on whether it is a positive or negative significant trend.</p>
+<p><img src="images/soetrends_plot.PNG" /><!-- --></p>
 </div>
-<div id="videos" class="section level2" number="4.2">
-<h2><span class="header-section-number">4.2</span> Videos</h2>
-<p>Shiny Developer Conference talks - <a href="https://rstudio.com/resources/shiny-dev-con-2016/" class="uri">https://rstudio.com/resources/shiny-dev-con-2016/</a>
-Various Shiny Tutorials - <a href="https://rstudio.com/resources/webinars/" class="uri">https://rstudio.com/resources/webinars/</a></p>
+<div id="downloadable-data" class="section level3" number="3.1.2">
+<h3><span class="header-section-number">3.1.2</span> Downloadable data</h3>
+<p>Once the best trend line is chosen the predicted values are made available in the “Table” tab of the app. This table includes a predicted GAM fit and predicted standard error as well as the original dataset.</p>
+<p><img src="images/soetrends_table.PNG" /><!-- --></p>
+</div>
+<div id="documentation" class="section level3" number="3.1.3">
+<h3><span class="header-section-number">3.1.3</span> Documentation</h3>
+<p>The final tab of this app holds the documentation for this app including where to find more details on each dataset and the specific manipulability of the tool. This section also includes a link to some summary statistics for the Mid-Atlantic datasets.</p>
+<p><img src="images/soetrends_doc.PNG" /><!-- --></p>
+</div>
+</div>
+<div id="how-often-is-it-used-7" class="section level2" number="3.2">
+<h2><span class="header-section-number">3.2</span> How often is it used?</h2>
+<p>Currently this app is used within EDAB during the synthesis discussions. The goal, however, is to have Mid-Atlantic council use this tool to help inform their risk assessmet. This shiny app shows has tools for model selection and has the data downloadable for use in other products.</p>
+</div>
+<div id="has-it-been-used-in-management-4" class="section level2" number="3.3">
+<h2><span class="header-section-number">3.3</span> Has it been used in management?</h2>
+<p>Not yet but that is the goal.</p>
 
 </div>
 </div>
@@ -181,8 +203,8 @@ Various Shiny Tutorials - <a href="https://rstudio.com/resources/webinars/" clas
           </div>
         </div>
       </div>
-<a href="state-of-the-ecosystem-time-series-analysis.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="group.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="shiny-apps.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="useful-resources.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="asset/gitbook-2.6.7/js/app.min.js"></script>

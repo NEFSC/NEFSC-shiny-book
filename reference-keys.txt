@@ -41,6 +41,13 @@ limiter
 application-purpose-7
 how-often-is-it-used-6
 has-it-been-used-in-management-3
+state-of-the-ecosystem-time-series-analysis
+application-purpose-8
+gam-plots
+downloadable-data
+documentation
+how-often-is-it-used-7
+has-it-been-used-in-management-4
 useful-resources
 articlesbooks
 videos
