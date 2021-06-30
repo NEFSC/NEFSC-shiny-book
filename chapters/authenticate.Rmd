@@ -10,7 +10,7 @@
 
 **Key Packages**: DBI/odbc
 
-**GitHub**: [https://github.com/andybeet/authenticate](https://github.com/andybeet/authenticate)
+**GitHub**: [https://github.com/NOAA-EDAB/authenticate](https://github.com/NOAA-EDAB/authenticate)
 
 ### Application Purpose
 
