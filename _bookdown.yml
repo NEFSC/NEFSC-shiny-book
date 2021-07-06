@@ -10,6 +10,7 @@ rmd_files: ["index.Rmd",
 "chapters/scorer.Rmd",
 "chapters/limiter.Rmd",
 "chapters/soetrends.Rmd",
+"chapters/NEespShiny-shinybook-chapter.Rmd", 
 "chapters/Useful_Resources.Rmd",
 "chapters/shiny_group.Rmd"]
 delete_merged_file: true

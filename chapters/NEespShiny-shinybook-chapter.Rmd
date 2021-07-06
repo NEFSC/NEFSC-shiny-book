@@ -1,4 +1,4 @@
-# NEespShiny
+## NEespShiny
 
 **App's Name**: [NEespShiny](https://github.com/NOAA-EDAB/NEespShiny)
 
@@ -12,7 +12,7 @@
 
 **GitHub**: [NOAA-EDAB/NEespShiny](https://github.com/NOAA-EDAB/NEespShiny)
 
-## Application Purpose
+### Application Purpose
 
 This shiny app is a graphical user interface for the [`NEesp` package](https://noaa-edab.github.io/NEesp/), which was developed to gather and display ecosystem and socioeconomic data for Northeast stocks. The `NEEsp` package assembles existing data, such as survey data, catch and landings, physical oceanography data, and trophic information, and integrates these data into reports using Rmarkdown templates. The Rmarkdown templates are rendered into reports with `bookdown`, so each report section can be saved as its own `.Rmd` file. 
 
@@ -20,7 +20,7 @@ The `NEespShiny` app allows users to create reports without needing to directly 
 
 There are five functionalities in the shiny app:
 
-### 1. Render a single file from the package templates
+#### 1. Render a single file from the package templates
 
 The user can select any of the `.Rmd` files that are saved in the package indicator template, and the report page for the species selected will be displayed.
 
@@ -29,7 +29,7 @@ image.dir <- here::here("images")
 knitr::include_graphics(file.path(image.dir,"tab1.png"))
 ```
 
-### 2. Render one or more files from local templates
+#### 2. Render one or more files from local templates
 
 The user can upload one or more `.Rmd` files and optional R scripts to test rendering of files in development. This functionality is primarily for developers.
 
@@ -37,7 +37,7 @@ The user can upload one or more `.Rmd` files and optional R scripts to test rend
 knitr::include_graphics(file.path(image.dir,"tab2.png"))
 ```
 
-### 3. Download an indicator report
+#### 3. Download an indicator report
 
 The user can download a complete indicator report for any species. The report folder includes a Word report, raw data, and figures.
 
@@ -45,7 +45,7 @@ The user can download a complete indicator report for any species. The report fo
 knitr::include_graphics(file.path(image.dir,"tab3.png"))
 ```
 
-### 4. Download a regression report
+#### 4. Download a regression report
 
 The user can download a complete regression report for any species. The report folder includes a Word report, raw data, and figures.
 
@@ -53,7 +53,7 @@ The user can download a complete regression report for any species. The report f
 knitr::include_graphics(file.path(image.dir,"tab4.png"))
 ```
 
-### 5. Download an ESP report card
+#### 5. Download an ESP report card
 
 Using the data outputted from the regression report tab above, the user can create a report card for a stock.
 ```{r, echo=FALSE}
@@ -62,10 +62,10 @@ knitr::include_graphics(file.path(image.dir,"tab5.png"))
 
 The `NEespShiny` app is currently disseminated as an R package. The package can be downloaded from GitHub, and the app can be initiated with one line of code: `NEespShiny::run_NEesp()`. This allows users to access and use the app without connecting to a VPN to access the NEFSC shiny1 server. Hopefully the `NEespShiny` app can eventually be hosted on a public-facing server.
 
-## How often is it used? 
+### How often is it used? 
 
 This product is still in development. It is being created as part of the Northeast Ecosystem and Socioeconomic Profiles project (NE-ESP). and h
 
-## Has it been used in management?
+### Has it been used in management?
 
 Not yet, but hopefully this product will eventually be regularly incorporated into the stock management cycle in the Northeast as the NE-ESP project matures.
