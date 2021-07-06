@@ -48,7 +48,7 @@ downloadable-data
 documentation
 how-often-is-it-used-7
 has-it-been-used-in-management-4
-northeast-ecological-and-socio-economic-profiles
+northeast-ecosystem-and-socio-economic-profiles
 application-purpose-9
 render-a-single-file-from-the-package-templates
 render-one-or-more-files-from-local-templates
