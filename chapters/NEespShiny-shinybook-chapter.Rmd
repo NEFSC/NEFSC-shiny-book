@@ -1,4 +1,4 @@
-## Northeast Ecological and Socio-economic Profiles
+## Northeast Ecosystem and Socio-economic Profiles
 
 **App's Name**: [NEespShiny](https://github.com/NOAA-EDAB/NEespShiny)
 
