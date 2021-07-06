@@ -48,6 +48,15 @@ downloadable-data
 documentation
 how-often-is-it-used-7
 has-it-been-used-in-management-4
+neespshiny
+application-purpose-9
+render-a-single-file-from-the-package-templates
+render-one-or-more-files-from-local-templates
+download-an-indicator-report
+download-a-regression-report
+download-an-esp-report-card
+how-often-is-it-used-8
+has-it-been-used-in-management-5
 useful-resources
 articlesbooks
 videos

@@ -129,6 +129,12 @@
 <li class="chapter" data-level="2.9.2" data-path="shiny-apps.html"><a href="shiny-apps.html#how-often-is-it-used-7"><i class="fa fa-check"></i><b>2.9.2</b> How often is it used?</a></li>
 <li class="chapter" data-level="2.9.3" data-path="shiny-apps.html"><a href="shiny-apps.html#has-it-been-used-in-management-4"><i class="fa fa-check"></i><b>2.9.3</b> Has it been used in management?</a></li>
 </ul></li>
+<li class="chapter" data-level="2.10" data-path="shiny-apps.html"><a href="shiny-apps.html#neespshiny"><i class="fa fa-check"></i><b>2.10</b> NEespShiny</a>
+<ul>
+<li class="chapter" data-level="2.10.1" data-path="shiny-apps.html"><a href="shiny-apps.html#application-purpose-9"><i class="fa fa-check"></i><b>2.10.1</b> Application Purpose</a></li>
+<li class="chapter" data-level="2.10.2" data-path="shiny-apps.html"><a href="shiny-apps.html#how-often-is-it-used-8"><i class="fa fa-check"></i><b>2.10.2</b> How often is it used?</a></li>
+<li class="chapter" data-level="2.10.3" data-path="shiny-apps.html"><a href="shiny-apps.html#has-it-been-used-in-management-5"><i class="fa fa-check"></i><b>2.10.3</b> Has it been used in management?</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="useful-resources.html"><a href="useful-resources.html"><i class="fa fa-check"></i><b>3</b> Useful Resources</a>
 <ul>
@@ -412,6 +418,56 @@ This app was developed to explore the spatial and temporal aspects of existing o
 <div id="has-it-been-used-in-management-4" class="section level3" number="2.9.3">
 <h3><span class="header-section-number">2.9.3</span> Has it been used in management?</h3>
 <p>Not yet but that is the goal.</p>
+
+</div>
+</div>
+<div id="neespshiny" class="section level2" number="2.10">
+<h2><span class="header-section-number">2.10</span> NEespShiny</h2>
+<p><strong>App’s Name</strong>: <a href="https://github.com/NOAA-EDAB/NEespShiny">NEespShiny</a></p>
+<p><strong>Developer(s)</strong>: Abby Tyrell</p>
+<p><strong>Point of contact</strong>: Abby Tyrell, <a href="mailto:abigail.tyrell@noaa.gov" class="email">abigail.tyrell@noaa.gov</a> (EDAB/contractor)</p>
+<p><strong>Keywords</strong>: ecosystem and socioeconomic profiles, IEA, EBFM/EBM</p>
+<p><strong>Key Packages</strong>: <code>NEesp</code>, <code>bookdown</code>, <code>ggplot2</code>, <code>dplyr</code></p>
+<p><strong>GitHub</strong>: <a href="https://github.com/NOAA-EDAB/NEespShiny">NOAA-EDAB/NEespShiny</a></p>
+<div id="application-purpose-9" class="section level3" number="2.10.1">
+<h3><span class="header-section-number">2.10.1</span> Application Purpose</h3>
+<p>This shiny app is a graphical user interface for the <a href="https://noaa-edab.github.io/NEesp/"><code>NEesp</code> package</a>, which was developed to gather and display ecosystem and socioeconomic data for Northeast stocks. The <code>NEEsp</code> package assembles existing data, such as survey data, catch and landings, physical oceanography data, and trophic information, and integrates these data into reports using Rmarkdown templates. The Rmarkdown templates are rendered into reports with <code>bookdown</code>, so each report section can be saved as its own <code>.Rmd</code> file.</p>
+<p>The <code>NEespShiny</code> app allows users to create reports without needing to directly work with the <code>NEesp</code> code.</p>
+<p>There are five functionalities in the shiny app:</p>
+<div id="render-a-single-file-from-the-package-templates" class="section level4" number="2.10.1.1">
+<h4><span class="header-section-number">2.10.1.1</span> 1. Render a single file from the package templates</h4>
+<p>The user can select any of the <code>.Rmd</code> files that are saved in the package indicator template, and the report page for the species selected will be displayed.</p>
+<p><img src="images/tab1.png" /><!-- --></p>
+</div>
+<div id="render-one-or-more-files-from-local-templates" class="section level4" number="2.10.1.2">
+<h4><span class="header-section-number">2.10.1.2</span> 2. Render one or more files from local templates</h4>
+<p>The user can upload one or more <code>.Rmd</code> files and optional R scripts to test rendering of files in development. This functionality is primarily for developers.</p>
+<p><img src="images/tab2.png" /><!-- --></p>
+</div>
+<div id="download-an-indicator-report" class="section level4" number="2.10.1.3">
+<h4><span class="header-section-number">2.10.1.3</span> 3. Download an indicator report</h4>
+<p>The user can download a complete indicator report for any species. The report folder includes a Word report, raw data, and figures.</p>
+<p><img src="images/tab3.png" /><!-- --></p>
+</div>
+<div id="download-a-regression-report" class="section level4" number="2.10.1.4">
+<h4><span class="header-section-number">2.10.1.4</span> 4. Download a regression report</h4>
+<p>The user can download a complete regression report for any species. The report folder includes a Word report, raw data, and figures.</p>
+<p><img src="images/tab4.png" /><!-- --></p>
+</div>
+<div id="download-an-esp-report-card" class="section level4" number="2.10.1.5">
+<h4><span class="header-section-number">2.10.1.5</span> 5. Download an ESP report card</h4>
+<p>Using the data outputted from the regression report tab above, the user can create a report card for a stock.
+<img src="images/tab5.png" /><!-- --></p>
+<p>The <code>NEespShiny</code> app is currently disseminated as an R package. The package can be downloaded from GitHub, and the app can be initiated with one line of code: <code>NEespShiny::run_NEesp()</code>. This allows users to access and use the app without connecting to a VPN to access the NEFSC shiny1 server. Hopefully the <code>NEespShiny</code> app can eventually be hosted on a public-facing server.</p>
+</div>
+</div>
+<div id="how-often-is-it-used-8" class="section level3" number="2.10.2">
+<h3><span class="header-section-number">2.10.2</span> How often is it used?</h3>
+<p>This product is still in development. It is being created as part of the Northeast Ecosystem and Socioeconomic Profiles project (NE-ESP). and h</p>
+</div>
+<div id="has-it-been-used-in-management-5" class="section level3" number="2.10.3">
+<h3><span class="header-section-number">2.10.3</span> Has it been used in management?</h3>
+<p>Not yet, but hopefully this product will eventually be regularly incorporated into the stock management cycle in the Northeast as the NE-ESP project matures.</p>
 
 </div>
 </div>
