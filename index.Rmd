@@ -14,7 +14,7 @@ github-repo: kimberly-bastille/READ-shiny-book
 description: "This book documents nothing yet"
 ---
 
-# Introduction# Introduction
+# Introduction
 
 Welcome to the NEFSC Shiny Group! This book was compiled by the Northeast Fisheries Science Center (NEFSC) [Shiny Group](#group) to showcase how we have used [Shiny](https://shiny.rstudio.com/) apps to enhance our work. Each chapter describes a different Shiny app developed at the NEFSC. Many of the apps shared here are under ongoing development and the purpose of this book is to share our work and the lessons we've learned through developing these apps. If you are here then there is a good chance you are either interested in finding out what apps the group are working on or you are considering collaborating on or creating an app yourself. Information on this page should help get you started.
 
