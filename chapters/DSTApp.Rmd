@@ -2,7 +2,7 @@
 
 **Apps Name**: [North Atlantic Right Whale Decision Support Tool App](http://shiny1.nefsc.noaa.gov:3838/amiller/DST/)
 
-**Developer(s)**: Alicia Miller, Sean Hardison, Andy Beet, Scott Large, Burton Shank
+**Developer(s)**: Alicia Miller, Sean Hardison, Andy Beet, Scott Large, Burton Shank, Marisa Trego, Alessandra Huamani, André Price, Michael Asaro, Colleen Coogan, Sean Hayes
   
 **Point of contact**: Alicia Miller, <alicia.miller@noaa.gov> (Population Dynamics Branch/Protected Species Branch)
   
