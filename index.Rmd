@@ -10,7 +10,7 @@ documentclass: book
 #bibliography: ["bibliography/xxx.bib","packages.bib"]
 biblio-style: apalike
 link-citations: true
-github-repo: kimberly-bastille/READ-shiny-book
+github-repo: https://github.com/NEFSC/NEFSC-shiny-book
 description: "This book documents nothing yet"
 ---
 
