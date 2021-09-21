@@ -1,4 +1,5 @@
 introduction
+welcome
 getting-started
 creds
 saving-the-app
