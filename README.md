@@ -1,4 +1,4 @@
-# READ-shiny-book
+# NEFSC-shiny-book
 
 This repo holds the NEFSC R Shiny group book. We are a group of R enthusiasts that support an inclusive community where folks of all experience levels can advance skills, share knowledge, and explore R. We promote open science principles of collaboration, reproducibility, and transparency, and provide training opportunities for members.
 
