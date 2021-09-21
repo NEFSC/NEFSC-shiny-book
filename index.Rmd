@@ -20,7 +20,9 @@ This book was compiled by the NEFSC R [shiny group](#group) to showcase how we h
 
 ## Welcome
 
-Welcome to the shiny group. If you are here then there is agood chance you are either interested in finding out what apps the group are working on or you are considering collaborating on or creating an app yourself. Information on this page should help get you started.
+Welcome to the shiny group. We are a group of R enthusiasts that support an inclusive community where folks of all experience levels can advance skills, share knowledge, and explore R. We promote open science principles of collaboration, reproducibility, and transparency, and provide training opportunities for members.
+
+If you are here then there is a good chance you are either interested in finding out what apps the group are working on or you are considering collaborating on or creating an app yourself. Information on this page should help get you started.
 
 ## Getting Started
 
